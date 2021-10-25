@@ -13,7 +13,7 @@ When reviewing a written piece of content, use a code to support your editorial 
 | Opening       | LEDE  | Don't bury the lede. In the article, or even in a sentence.    
 | Opening       | FRONT | Clearly identify your main point or idea up front, in the opening section.            |
 | Opening       | SPFIC | Make the scenario or problem space specific instead of vague, general claims.                         |
-| Opening       | WHOM  | Identify (explicitly or implicitly) your audience in the opening section. This is not a grammar issue, it is to help readers self-select and identify with a pice (or not). "Teams delivering client sites often ..." "Managing large number of servers ..."                                    |
+| Opening       | WHOM  | Identify (explicitly or implicitly) your audience in the opening section. This is not a grammar issue, it is to help readers self-select and identify with a piece (or not). "Teams delivering client sites often ..." "Managing large number of servers ..."                                    |
 | Opening       | WIIFM | Lead with the benefit. Clearly show why the audience will care about the idea/thesis in the opening section.  |
 | Logical Rigor | POINT | Points supporting an argument, thesis, or claim can be strong, weak, or missing. This is somewhat subjective! Editors, please expand on this when you use this code.  |
 | Logical Rigor | SPOCK | Use clear, logical thinking. Avoid logical fallacies. Check that all evidence is directly connected with a cause/effect relationship to the claim.   |
