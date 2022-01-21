@@ -1,6 +1,6 @@
 # Positivity Pass
 
-The positivity pass is meant to:
+The [positivity pass](https://openstrategypartners.com/the-positivity-pass) 🔗 is meant to:
 
 * Improve the written work.
 * Provide guidance to the writer to learn from the editing process, and be able to apply the learning in future writing.
@@ -14,9 +14,9 @@ The positivity pass is meant to:
    Consider: What are the overarching strengths, significant accomplishments, and powerful communication aspects of the work?
 3. Use the [editing codes](codes.md) and include `++` with the code, along with specific praise.
 
-   > [++FRONT](scope-and-narrative-structure/front.md)  Good work on the introductory paragraph. You've set the scene nicely. 
+   > ++FRONT  Good work on the introductory paragraph. You've set the scene nicely. 
 
-   > [++METPH](style-and-phrasing/metph.md) This metaphor about a log jam to describe the process is fantastic. Let's extend that across the whole article. 
+   > ++METPH This metaphor about a log jam to describe the process is fantastic. Let's extend that across the whole article. 
 
 Another approach is to write a block of positivity at the top of the article describing things that were done well.
 
