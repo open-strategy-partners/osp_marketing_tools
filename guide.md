@@ -32,9 +32,9 @@ You can link to the explainer page for each code as you use it, or you can tell 
 
 ### Link each code
 
-> [QUOTE](flow-and-sections/quote.md): Consider adding a quote here to support to your point.
+> [QUOTE](https://openstrategypartners.com/quote-the-osp-editorial-code-podcast-s1e3): Consider adding a quote here to support to your point.
 
-> [++CRISP](style-and-phrasing/crisp.md): Really concise and compelling. 
+> [++CRISP](https://openstrategypartners.com/crisp-the-osp-editorial-code-podcast-s1e2): Really concise and compelling. 
 
 
 ### Link to the full list
