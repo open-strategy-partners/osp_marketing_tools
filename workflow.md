@@ -1,6 +1,6 @@
 # Workflow
 
-Our editing workflow has six steps moving from the largest scope (structure) to the smallest (choice of words). These steps
+Our [editing workflow](https://openstrategypartners.com/how-we-write-and-edit-at-osp-podcast-s1e1) 🔗 has six steps moving from the largest scope (structure) to the smallest (choice of words). These steps
 give us a strong logical framework to help us be kind, consistent, and helpful editors.  
 
 **Note:** Not all content requires exhaustive editing or review. Depending on your piece, you may spend more or less time on each step. Skip around as you see 
