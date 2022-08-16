@@ -20,13 +20,8 @@ You can use these codes as-is, or clone this repo and add your own codes to supp
 
 ## License
 
-Attribution 4.0 International (CC BY 4.0)
-
-You are free to:
-
-* Share — copy and redistribute the material in any medium or format
-* Adapt — remix, transform, and build upon the material
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
 **Attribution** You must give appropriate credit, provide a link to the license, and indicate if changes were made. 
 
-See the [license](license) or read more on the [Creative Commons page](https://creativecommons.org/licenses/by/4.0/).
+See the [license](license) or read more on the [Creative Commons page](https://creativecommons.org/licenses/by-sa/4.0/).
