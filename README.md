@@ -20,8 +20,13 @@ You can use these codes as-is, or clone this repo and add your own codes to supp
 
 ## License
 
-Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+The OSP Editing Codes © 2018-present by Open Strategy Partners GmbH is licensed under CC BY-SA 4.0. See the [license](license) or read more on the Creative Commons page [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/)
 
-**Attribution** You must give appropriate credit, provide a link to the license, and indicate if changes were made. 
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-See the [license](license) or read more on the [Creative Commons page](https://creativecommons.org/licenses/by-sa/4.0/).
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+**Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
+
+You must give appropriate credit, provide a link to the license, and indicate if changes were made. 
