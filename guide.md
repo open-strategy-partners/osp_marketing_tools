@@ -5,7 +5,7 @@ This guide explains how to use the [editing codes](codes.md) when you're editing
 You can use the codes during:
 
 * The [positivity pass](positivity-pass.md)
-* The four phases of [constructive feedback](phases.md)
+* The [four phases](phases.md) of constructive feedback
 
 ## Using the codes
 
