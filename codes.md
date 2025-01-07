@@ -37,11 +37,11 @@ We hope our Editing Codes help you be a more mindful and transparent editor, and
 
 Let your writer know that you used the editing codes to review their work. Link to this page or copy this:
 
-Nice work! I used these [Editing Codes](https://github.com/open-strategy-partners/editing-codes) in my review to help explain my suggestions. Let me know if you have any questions!
+> Nice work! I used these [Editing Codes](https://github.com/open-strategy-partners/editing-codes) in my review to help explain my suggestions. Let me know if you have any questions!
 
 ## The OSP Editing Codes
 
-The codes are organized into four [editing phases](phases.md) to help you edit consistently.
+The codes are organized into four editing phases to help you edit consistently.
 
 * [Scope & Narrative Structure](#scope)
 * [Flow & Readability](#flow)
