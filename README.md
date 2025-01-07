@@ -6,17 +6,15 @@ Editing shouldn't be a black box. These codes communicate the rationale behind a
 
 When reviewing a written piece of content, use a code to support your editorial comment or suggestion. 
 
-## How to use the codes
+## Who is this for?
 
-They are organized into four [editing phases](phases.md) and help you edit consistently. 
-
-See the [How-to Guide](guide.md) to learn how to use the codes when you're editing.
+This guide is for OSP team members and anyone who wants to learn how we work. We created structures, workflows, and processes to help us communicate authentically — on behalf of our clients and ourselves. 
 
 ## Contributing to the codes
 
-We've based the editing codes on principles in our Writing Guide. This is a living collection - if we missed something, please log an issue to let us know.
+We've based the editing codes on principles in our [Writing Guide](https://github.com/open-strategy-partners/writing-guide). This is a living collection - if we missed something, please log an issue to let us know.
 
-You can use these codes as-is, or clone this repo and add your own codes to support your in-house style guide. 
+You can use these codes as-is, or clone this repo and add your own codes to support your in-house style guide. We would love your suggestions and feedback. To collaborate, create an issue in this repo or open a pull request. 
 
 ## License
 
@@ -30,3 +28,7 @@ The OSP Editing Codes © 2018-present by Open Strategy Partners GmbH is licensed
 **Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
 
 You must give appropriate credit, provide a link to the license, and indicate if changes were made. 
+
+
+
+
