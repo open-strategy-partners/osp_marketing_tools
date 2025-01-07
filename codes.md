@@ -1,12 +1,54 @@
-# Codes
+# Editing Codes
 
-This collection of semantic editing codes are short editing marks that communicate the rationale behind a suggested edit, based on a specific writing guideline. 
+Brought to you by Open Strategy Partners.
 
-They are organized into four [editing phases](phases.md) and help you edit consistently.
+Editing Codes are a collection of short, semantic editing marks to use when editing a piece of written content — your own or someone else’s.
 
-When reviewing a written piece of content, use a code to support your editorial comment or suggestion.
+**Explain, teach, learn.** The codes are based on specific [writing guidelines](https://github.com/open-strategy-partners/writing-guide). Use them to communicate the rationale behind a suggested change. They’re also a great way to share useful writing tips!
 
-## Process Phase A: Scope & Narrative Structure
+* Check out the [Editing Codes Quick Start Guide](https://openstrategypartners.com/blog/osp-editing-codes-quick-start-guide/) to see how we approach editing, and view the codes in action.  
+* Listen to us talking on our podcast about [how we write and edit at OSP](https://openstrategypartners.com/blog/how-we-write-and-edit-at-osp-podcast-01/).
+
+## How to use the Editing Codes
+
+### Step one: Identify, Reflect, Consider
+
+1. Read the piece of writing.
+2. Encounter something that you want to give feedback on.
+3. Pause a moment to reflect.
+4. Find the code that represents the writing principle that underpins your feedback.
+5. Be constructive! Everyone wants to improve their writing :-)
+
+This takes a bit of getting used to, but once you get familiar with the codes it becomes second nature.
+
+### Step two: Include the Code in your Feedback
+
+1. Preface your feedback with the code.
+2. Add your comments or suggestions. 
+
+### Step Three: Praise. Always Be Positive.
+
+Help your writer build good habits by telling them [what you like and what they do well](https://openstrategypartners.com/blog/the-positivity-pass-and-why-we-do-it/).
+
+Add a `++` to a code to praise a positive example of its use. You can follow with extra detail, or just let it stand alone.
+
+### Step Four: Pass it on!
+We hope our Editing Codes help you be a more mindful and transparent editor, and a more consistent writer!
+
+Let your writer know that you used the editing codes to review their work. Link to this page or copy this:
+
+Nice work! I used these [Editing Codes](https://github.com/open-strategy-partners/editing-codes) in my review to help explain my suggestions. Let me know if you have any questions!
+
+## The OSP Editing Codes
+
+The codes are organized into four [editing phases](phases.md) to help you edit consistently.
+
+* [Scope & Narrative Structure](#scope)
+* [Flow & Readability](#flow)
+* [Style & Phrasing](#style)
+* [Word choice](#word)
+
+## <a id="scope" />Process Phase A: Scope & Narrative Structure
 
 | Category  | Editorial Code | Writing Principle |
 | :---------| :------------: | :---------------- |
@@ -22,7 +64,7 @@ When reviewing a written piece of content, use a code to support your editorial 
 | Closing | SUMM   | Summarize your thesis and why it matters in the closing section.         |
 | Closing | THESIS | Restate your thesis/main idea in the closing section, but do no simply repeat verbatim. |
 
-## Process Phase B: Flow & Readability
+## <a id="flow" />Process Phase B: Flow & Readability
 
 | Category  | Editorial Code | Writing Principle |
 | :---------| :------------: | :---------------- |
@@ -41,7 +83,7 @@ When reviewing a written piece of content, use a code to support your editorial 
 | Coherence & Readability | ILLUS | Add non-text explanations, metaphors, and data using photos, charts, diagrams, or illustrations where possible. Images provide visual interest and a variation in long articles.<br> A picture is worth 1000 words for conveying some kinds of information efficiently.             |
 | Audience                | SEP   | Separation of concerns. Sometimes two different points are combined in a single sentence when they should be made separately. This can also apply to a paragraph, section of an article, or even an extraneous topic in one post that you can remove or break out into its own article.             |
 
-## Process Phase C: Style & Phrasing
+## <a id="style" />Process Phase C: Style & Phrasing
 
 | Category  | Editorial Code | Writing Principle |
 | :---------| :------------: | :---------------- |
@@ -70,7 +112,7 @@ When reviewing a written piece of content, use a code to support your editorial 
 | Phrasing                             | COLOR  | Color and energy. Choose interesting, exciting ways to express things—but not at the expense of clarity.  |
 | Phrasing                             | CLEAR  | Clear writing. Avoid vague descriptions of benefits. Be as specific as possible.     |
 
-## Process Phase D: Word Choice
+## <a id="word" />Process Phase D: Word Choice
 
 | Category  | Editorial Code | Writing Principle |
 | :---------| :------------: | :---------------- |
