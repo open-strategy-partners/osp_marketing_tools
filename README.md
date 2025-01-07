@@ -12,7 +12,7 @@ This guide is for OSP team members and anyone who wants to learn how we work. We
 
 ## Contributing to the codes
 
-We've based the editing codes on principles in our [Writing Guide](https://github.com/open-strategy-partners/writing-guide). This is a living collection - if we missed something, please log an issue to let us know.
+We've based the editing codes on principles in our [Writing Guide]https://github.com/open-strategy-partners/writing-guide). This is a living collection - if we missed something, please log an issue to let us know.
 
 You can use these codes as-is, or clone this repo and add your own codes to support your in-house style guide. We would love your suggestions and feedback. To collaborate, create an issue in this repo or open a pull request. 
 
