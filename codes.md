@@ -13,6 +13,8 @@ Editing Codes are a collection of short, semantic editing marks to use when edit
 
 ### Step one: Identify, Reflect, Consider
 
+<img src="https://openstrategypartners.com/_assets/processed/zu9vjYj-NNP7pz7mUwjmQ6RE1HTurIcDaFb14yXDb8Y/q:85/c:1024:1024:fp:0.5:0.5/rt:force/w:300/h:300/fn:Y3NtX2Zsb3ctc3BvY2tfODExM2ViNDBmZA:t/cb:db5f20a1907e95839e82a3e7ef9be38a2c0b5277/bG9jYWw6L2ZpbGVhZG1pbi9CaWxkZXIvZWRpdGluZ19jb2Rlcy9mbG93LXNwb2NrLnBuZw" alt="Feedback bubbles" align="right"/>
+
 1. Read the piece of writing.
 2. Encounter something that you want to give feedback on.
 3. Pause a moment to reflect.
@@ -28,11 +30,14 @@ This takes a bit of getting used to, but once you get familiar with the codes it
 
 ### Step Three: Praise. Always Be Positive.
 
+<img src="https://openstrategypartners.com/_assets/processed/zuIhrIliK-vPYOEaq3Pj9pl6cJZJiPZ9SExuVntBy_E/q:85/c:1024:1024:fp:0.5:0.5/rt:force/w:300/h:300/fn:Y3NtX3Bvc2l0aXZpdHktcGFzc18yOTQ5ZjBjZTY1:t/cb:0f4a6800eddd59de0ef17fe8f5ae38bf5d2876ae/bG9jYWw6L2ZpbGVhZG1pbi9CaWxkZXIvZWRpdGluZ19jb2Rlcy9wb3NpdGl2aXR5LXBhc3MucG5n" alt="Examples of using the codes" align="right"/>
+
 Help your writer build good habits by telling them [what you like and what they do well](https://openstrategypartners.com/blog/the-positivity-pass-and-why-we-do-it/).
 
 Add a `++` to a code to praise a positive example of its use. You can follow with extra detail, or just let it stand alone.
 
 ### Step Four: Pass it on!
+
 We hope our Editing Codes help you be a more mindful and transparent editor, and a more consistent writer!
 
 Let your writer know that you used the editing codes to review their work. Link to this page or copy this:
