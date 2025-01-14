@@ -5,9 +5,11 @@ description = "OSP Editing Server using Model Context Protocol"
 requires-python = ">=3.10,<3.14"
 
 dependencies = [
-    "mcp[cli]",
-    "pydantic>=2.0",
+    "mcp[cli]"
 ]
+
+[project.scripts]
+osp-editing-codes = "osp_editing_codes.server:main"
 
 [build-system]
 requires = ["hatchling"]
