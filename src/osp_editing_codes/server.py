@@ -4,7 +4,7 @@ import mcp.server.stdio
 from mcp.server.fastmcp import FastMCP
 from mcp.server.models import InitializationOptions
 
-# Initialize FastMCP server with clear name
+# Initialize FastMCP server
 server = FastMCP("OSPEditingCodes")
 
 @server.resource("osp://editing-codes")
@@ -27,7 +27,6 @@ def get_osp_editing_codes() -> str:
             "This file must be present in the same directory as the script."
         )
 
-# Add a health check tool
 @server.tool()
 def health_check() -> dict:
     """Check if the server is running and can access its resources
@@ -41,24 +40,10 @@ def health_check() -> dict:
         "version": "0.1.0"
     }
 
-async def serve():
-    """Run the MCP server with proper initialization."""
-    async with mcp.server.stdio.stdio_server() as (read_stream, write_stream):
-        init_options = InitializationOptions(
-            server_name="OSPEditingCodes",
-            server_version="0.1.0",
-            capabilities=server.get_capabilities()
-        )
-        await server.run(
-            read_stream=read_stream,
-            write_stream=write_stream,
-            initialization_options=init_options
-        )
-
 def main():
     """Entry point for the MCP server."""
     try:
-        asyncio.run(serve())
+        server.run()  # Use server.run() instead of mcp.run()
     except Exception as e:
         print(f"Error starting server: {str(e)}")
         raise

@@ -171,14 +171,10 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "mcp", extra = ["cli"] },
-    { name = "pydantic" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "mcp", extras = ["cli"] },
-    { name = "pydantic", specifier = ">=2.0" },
-]
+requires-dist = [{ name = "mcp", extras = ["cli"] }]
 
 [[package]]
 name = "pydantic"
