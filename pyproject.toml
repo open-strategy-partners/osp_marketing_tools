@@ -1,22 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "osp-editing-codes"
 version = "0.1.0"
 description = "OSP Editing Server using Model Context Protocol"
+authors = [
+    {name = "OSP Contributors"}
+]
 requires-python = ">=3.10,<3.14"
-
 dependencies = [
-    "mcp[cli]"
+    "mcp[cli]",
+    "aiohttp==3.11.11"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "pytest-cov",
+    "pytest-mock",
+    "black",
+    "mypy",
+    "ruff"
 ]
 
 [project.scripts]
 osp-editing-codes = "osp_editing_codes.server:main"
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
-
-[tool.hatch.metadata]
-allow-direct-references = true

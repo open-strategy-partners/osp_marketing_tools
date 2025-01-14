@@ -1,49 +1,55 @@
+"""OSP Editing Codes server implementation."""
+
 import os
 import asyncio
-import mcp.server.stdio
+import json
+from typing import Dict, Any, List
+
 from mcp.server.fastmcp import FastMCP
-from mcp.server.models import InitializationOptions
+from mcp.types import TextContent
 
-# Initialize FastMCP server
-server = FastMCP("OSPEditingCodes")
+def get_logger(name: str):
+    import logging
+    logger = logging.getLogger(name)
+    return logger
 
-@server.resource("osp://editing-codes")
-def get_osp_editing_codes() -> str:
-    """Get the OSP editing codes documentation
-    
-    Returns:
-        str: The markdown content as a string
-    
-    Raises:
-        FileNotFoundError: If codes-llm.md is not found in script directory
-    """
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    try:
-        with open(os.path.join(script_dir, 'codes-llm.md'), 'r') as f:
-            return f.read()
-    except FileNotFoundError:
-        raise FileNotFoundError(
-            "Required file 'codes-llm.md' not found. "
-            "This file must be present in the same directory as the script."
-        )
+logger = get_logger(__name__)
 
-@server.tool()
-def health_check() -> dict:
-    """Check if the server is running and can access its resources
-    
-    Returns:
-        dict: Health check results
-    """
+# Create server instance using FastMCP
+mcp = FastMCP("osp-editing-codes")
+
+@mcp.tool()
+async def health_check() -> dict:
+    """Check if the server is running and can access its resources"""
     return {
         "status": "healthy",
         "resources": ["osp://editing-codes"],
         "version": "0.1.0"
     }
 
-def main():
-    """Entry point for the MCP server."""
+@mcp.tool()
+async def get_editing_codes() -> dict:
+    """Get the OSP editing codes documentation"""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
     try:
-        server.run()  # Use server.run() instead of mcp.run()
+        with open(os.path.join(script_dir, 'codes-llm.md'), 'r') as f:
+            content = f.read()
+            return {
+                "success": True,
+                "data": {
+                    "content": content
+                }
+            }
+    except FileNotFoundError:
+        return {
+            "success": False,
+            "error": "Required file 'codes-llm.md' not found in script directory"
+        }
+
+def main() -> None:
+    """Run the MCP server."""
+    try:
+        mcp.run()
     except Exception as e:
         print(f"Error starting server: {str(e)}")
         raise
