@@ -15,17 +15,6 @@ dependencies = [
     "aiohttp==3.11.11"
 ]
 
-[project.optional-dependencies]
-dev = [
-    "pytest",
-    "pytest-asyncio",
-    "pytest-cov",
-    "pytest-mock",
-    "black",
-    "mypy",
-    "ruff"
-]
-
 [project.scripts]
 osp-editing-codes = "osp_editing_codes.server:main"
 
@@ -33,4 +22,4 @@ osp-editing-codes = "osp_editing_codes.server:main"
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src"]
+packages = ["src/osp_editing_codes"]
