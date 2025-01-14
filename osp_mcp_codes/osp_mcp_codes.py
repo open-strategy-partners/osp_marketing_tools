@@ -48,10 +48,6 @@ def health_check() -> dict:
 # Main entry point with proper error handling
 if __name__ == "__main__":
     try:
-        print("Starting OSP Editing Codes MCP server...")
         server.run()
-    except KeyboardInterrupt:
-        print("\nServer shutdown requested via keyboard interrupt")
     except Exception as e:
-        print(f"Server failed to start: {str(e)}")
         raise

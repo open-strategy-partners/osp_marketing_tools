@@ -1,5 +1,5 @@
 [project]
-name = "osp-mcp-server"
+name = "osp-editing-codes"
 version = "0.1.0"
 description = "OSP Editing Server using Model Context Protocol"
 requires-python = ">=3.10,<3.13"
