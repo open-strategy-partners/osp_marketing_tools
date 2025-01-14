@@ -14,7 +14,7 @@ def get_osp_editing_codes() -> str:
     """Get the OSP editing codes documentation"""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     try:
-        with open(os.path.join(script_dir, 'osp_editing_codes.md'), 'r') as f:
+        with open(os.path.join(script_dir, 'codes-llm.md'), 'r') as f:
             return f.read()
     except FileNotFoundError:
         raise FileNotFoundError(
