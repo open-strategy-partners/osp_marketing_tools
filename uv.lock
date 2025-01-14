@@ -166,7 +166,7 @@ wheels = [
 ]
 
 [[package]]
-name = "osp-mcp-server"
+name = "osp-editing-codes"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
