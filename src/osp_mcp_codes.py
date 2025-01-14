@@ -24,8 +24,7 @@ def get_osp_editing_codes() -> str:
 
 if __name__ == "__main__":
     try:
-        import mcp
-        mcp.run()
+        server.run()  # Use server.run() instead of mcp.run()
     except Exception as e:
         print(f"Server failed to start: {str(e)}")
         raise
