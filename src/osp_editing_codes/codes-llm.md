@@ -11,6 +11,10 @@ Core purpose: Semantic editing marks for content review with teaching/learning f
 4. Prefix feedback with code
 5. Include constructive explanation
 6. Use `++` prefix for praising good examples
+7. When providing revisions or edits, always show them in diff format using markdown like this:
+```diff
+- Text to remove
++ Text to add
 
 ## Code Categories
 
@@ -96,3 +100,4 @@ Core purpose: Semantic editing marks for content review with teaching/learning f
 - Grammar
   - GRAM: Correct grammar
   - MODIF: Proper modifier order
+
