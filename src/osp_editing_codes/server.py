@@ -63,8 +63,27 @@ async def get_writing_guide() -> dict:
         return {
             "success": False,
             "error": "Required file 'writing-llm.md' not found in script directory"
-        }
+        }   
 
+@mcp.tool()
+async def get_meta_guide() -> dict:
+    """Get the Open Strategy Partners (OSP) Web Content Meta Information Generation System ."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    try:
+        with open(os.path.join(script_dir, 'meta-llm.md'), 'r') as f:
+            content = f.read()
+            return {
+                "success": True,
+                "data": {
+                    "content": content
+                }
+            }
+    except FileNotFoundError:
+        return {
+            "success": False,
+            "error": "Required file 'meta-llm.md' not found in script directory"
+        }
+    
 def main() -> None:
     """Run the MCP server."""
     try:
