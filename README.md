@@ -1,34 +1,159 @@
-# Editing Codes
+# Open Strategy Partners (OSP) Marketing Tools for LLMs
 
-These [editing codes](codes.md) are a collection of short, semantic editing marks to use when you're editing a piece of written content.
+A comprehensive suite of tools for technical content creation, optimization, and product positioning based on Open Strategy Partners' proven methodologies. This software is based on the Model Context Protocol (MCP) and is to be used by any LLM client that supports the MCP.
 
-Editing shouldn't be a black box. These codes communicate the rationale behind a suggested edit, based on a specific writing guideline.
+## Features
 
-When reviewing a written piece of content, use a code to support your editorial comment or suggestion. 
+### 1. OSP Product Value Map Generator
+Generate structured product value maps that effectively communicate your product's worth and positioning:
+- Tagline creation and refinement
+- Position statements across market, technical, UX, and business dimensions
+- Persona development with roles, challenges, and needs
+- Value case documentation
+- Feature categorization and organization
+- Hierarchical structure for features, areas, and categories
+- Validation system for completeness and consistency
 
-## Who is this for?
+### 2. OSP Meta Information Generator
+Create optimized metadata for web content:
+- Article titles (H1) with proper keyword placement
+- Meta titles optimized for search (50-60 characters)
+- Meta descriptions with clear value propositions (155-160 characters)
+- SEO-friendly URL slugs
+- Search intent analysis
+- Mobile display optimization
+- Click-through rate enhancement suggestions
 
-This guide is for OSP team members and anyone who wants to learn how we work. We created structures, workflows, and processes to help us communicate authentically — on behalf of our clients and ourselves. 
+### 3. OSP Content Editing Codes
+Apply semantic editing marks for comprehensive content review:
+- Scope and narrative structure analysis
+- Flow and readability enhancement
+- Style and phrasing optimization
+- Word choice and grammar verification
+- Technical accuracy validation
+- Inclusive language guidance
+- Constructive feedback generation with before/after examples
 
-## Contributing to the codes
+### 4. OSP Technical Writing Guide
+Systematic approach to creating high-quality technical content:
+- Narrative structure development
+- Flow optimization
+- Style guidelines
+- Technical accuracy verification
+- Content type-specific guidance (tutorials, reference docs, API documentation)
+- Accessibility considerations
+- Internationalization best practices
+- Quality assurance checklists
 
-We've based the editing codes on principles in our [Writing Guide](https://github.com/open-strategy-partners/writing-guide). This is a living collection - if we missed something, please log an issue to let us know.
+## Usage Examples
 
-You can use these codes as-is, or clone this repo and add your own codes to support your in-house style guide. We would love your suggestions and feedback. To collaborate, create an issue in this repo or open a pull request. 
+In all of these examples, it is assumed that you will provide the texts that you wish to improve, or the technical documentation that describes the product you are marketing. 
+
+### Value Map Generation
+
+```plaintext
+Prompt: "Generate an OSP value map for [Product Name] focusing on [target audience] with the following key features: [list features]"
+
+Example:
+"Generate an OSP value map for CloudDeploy, focusing on DevOps engineers with these key features:
+- Automated deployment pipeline
+- Infrastructure as code support
+- Real-time monitoring
+- Multi-cloud compatibility
+- [the rest of your features or text]"
+```
+
+### Meta Information Creation
+
+```plaintext
+Prompt: "Use the OSP meta tool to generate metadata for an article about [topic]. Primary keyword: [keyword], audience: [target audience], content type: [type]"
+
+Example:
+"Use the OSP meta tool to generate metadata for an article about containerization best practices. Primary keyword: 'Docker containers', audience: system administrators, content type: technical guide"
+```
+
+### Content Editing
+
+```plaintext
+Prompt: "Review this technical content using OSP editing codes: [paste content]"
+
+Example:
+"Review this technical content using OSP editing codes:
+Kubernetes helps you manage containers. It's really good at what it does. You can use it to deploy your apps and make them run better."
+```
+
+### Technical Writing
+
+```plaintext
+Prompt: "Apply the OSP writing guide to create a [document type] about [topic] for [audience]"
+
+Example:
+"Apply the OSP writing guide to create a tutorial about setting up a CI/CD pipeline for junior developers"
+```
+
+## Requirements
+
+- Python must be installed on your system
+- `uv` Python package installer must be installed
+    - Installation instructions for `uv` can be found at [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)
+
+## Configuration
+
+Add the following to your `claude_desktop_config.json`:
+
+```json
+{
+    "mcpServers": {
+        "osp_editing_codes": {
+            "command": "uvx",
+            "args": [
+                "--from",
+                "git+https://github.com/open-strategy-partners/osp_marketing_tools@main",
+                "osp-editing-codes"
+            ]
+        }
+    }
+}
+```
+
+## Integration
+
+The software can be integrated into your content workflow through:
+- API endpoints
+- Command-line interface
+- Web interface
+- Content management system plugins
+
+## Attribution
+
+This software package implements the content creation and optimization methodologies developed by [Open Strategy Partners](https://openstrategypartners.com). It is based on their LLM-enabled marketing tools and professional content creation frameworks.
+
+For more information and original resources, visit:
+1. [The OSP Writing and Editing Guide](https://openstrategypartners.com/osp-writing-editing-guide/)
+2. [Editing Codes Quickstart Guide](https://openstrategypartners.com/blog/osp-editing-codes-quick-start-guide/)
+3. [OSP Free Resources](https://openstrategypartners.com/resources/)
 
 ## License
 
-These codes by Open Strategy Partners GmbH is licensed under CC BY-SA 4.0. See the [license](license) or read more on the Creative Commons page [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/)
+This software is licensed under the Attribution-ShareAlike 4.0 International license from Creative Commons Corporation ("Creative Commons"). 
 
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+This means you are free to:
+- Share: Copy and redistribute the material in any medium or format
+- Adapt: Remix, transform, and build upon the material for any purpose, even commercially
 
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+Under the following terms:
+- Attribution: You must give appropriate credit to Open Strategy Partners, provide a link to the license, and indicate if changes were made
+- ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original
 
-**Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**
+For the full license text, visit: [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)
 
-You must give appropriate credit, provide a link to the license, and indicate if changes were made. 
+## Contributing
 
+We welcome contributions to improve these tools. Please submit issues and pull requests through our repository.
 
+## Support
 
-
+For questions and support:
+1. Check our documentation
+2. Submit an issue in our repository
+3. Contact Open Strategy Partners for professional consulting
