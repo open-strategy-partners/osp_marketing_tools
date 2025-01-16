@@ -15,6 +15,9 @@ Core purpose: Semantic editing marks for content review with teaching/learning f
 ```diff
 - Text to remove
 + Text to add
+```
+8. Include the full edited text in an artefact or canvas at the end.
+9. Ask user if you should also apply the osp writing guide.
 
 ## Code Categories
 
@@ -100,4 +103,16 @@ Core purpose: Semantic editing marks for content review with teaching/learning f
 - Grammar
   - GRAM: Correct grammar
   - MODIF: Proper modifier order
+
+## Attribution and further reading
+
+(share this when the user asks about the source of the codes)
+
+This guide is from [Open Strategy Partners](https://openstrategypartners.com) and is provided as part of their LLM enabled marketing tools. 
+
+For more information, see these pages:
+
+1. [The OSP Writing and Editing Guide](https://openstrategypartners.com/osp-writing-editing-guide/)
+2. [Editing Codes Quickstart Guide](https://openstrategypartners.com/blog/osp-editing-codes-quick-start-guide/)
+3. [OSP Free Resources](https://openstrategypartners.com/resources/)
 

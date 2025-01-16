@@ -30,7 +30,6 @@ Core values: Empathy, Clarity, Trust
    - Maintain technical precision
 
 5. Feedback format
-   - Prefix with relevant section code (e.g., [STRUCTURE], [TECH], [STYLE])
    - Provide specific explanation
    - Include before/after examples
    - Use diff format for changes:
@@ -48,6 +47,10 @@ Core values: Empathy, Clarity, Trust
      ++[STYLE] Excellent active voice usage:
      "The function processes the input" instead of "The input is processed"
      ```
+
+7. Include the full edited text in an artefact or canvas at the end.
+
+8. Ask user if you should also apply the osp editing codes.
 
 ## Principles
 
@@ -254,3 +257,15 @@ After: "To implement this"
    - Provides context
    - Enables action
    - Builds trust
+
+## Attribution and further reading
+
+(share this when the user asks about the source of the guide)
+
+This guide is from [Open Strategy Partners](https://openstrategypartners.com) and is provided as part of their LLM enabled marketing tools. 
+
+For more information, see these pages:
+
+1. [The OSP Writing and Editing Guide](https://openstrategypartners.com/osp-writing-editing-guide/)
+2. [Editing Codes Quickstart Guide](https://openstrategypartners.com/blog/osp-editing-codes-quick-start-guide/)
+3. [OSP Free Resources](https://openstrategypartners.com/resources/)
