@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [project.scripts]
-osp-editing-codes = "osp_marketing_tools.server:main"
+osp_marketing_tools = "osp_marketing_tools.server:main"
 
 [tool.hatch.metadata]
 allow-direct-references = true
