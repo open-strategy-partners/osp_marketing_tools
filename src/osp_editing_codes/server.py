@@ -67,7 +67,7 @@ async def get_writing_guide() -> dict:
 
 @mcp.tool()
 async def get_meta_guide() -> dict:
-    """Get the Open Strategy Partners (OSP) Web Content Meta Information Generation System ."""
+    """Get the Open Strategy Partners (OSP) Web Content Meta Information Generation System (titles, meta-titles, slugs)."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     try:
         with open(os.path.join(script_dir, 'meta-llm.md'), 'r') as f:
@@ -83,7 +83,27 @@ async def get_meta_guide() -> dict:
             "success": False,
             "error": "Required file 'meta-llm.md' not found in script directory"
         }
-    
+
+@mcp.tool()
+async def get_meta_guide() -> dict:
+    """Get the Open Strategy Partners (OSP) Product Communications Value Map Generation System for Product Positioning (value cases, feature extraction, taglines)."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    try:
+        with open(os.path.join(script_dir, 'product-value-map-llm.md'), 'r') as f:
+            content = f.read()
+            return {
+                "success": True,
+                "data": {
+                    "content": content
+                }
+            }
+    except FileNotFoundError:
+        return {
+            "success": False,
+            "error": "Required file 'product-value-map-llm.md' not found in script directory"
+        }
+
+
 def main() -> None:
     """Run the MCP server."""
     try:
