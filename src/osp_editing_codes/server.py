@@ -85,7 +85,7 @@ async def get_meta_guide() -> dict:
         }
 
 @mcp.tool()
-async def get_meta_guide() -> dict:
+async def get_value_map_positioning_guide() -> dict:
     """Get the Open Strategy Partners (OSP) Product Communications Value Map Generation System for Product Positioning (value cases, feature extraction, taglines)."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     try:
