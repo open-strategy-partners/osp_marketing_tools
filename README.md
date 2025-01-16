@@ -104,12 +104,12 @@ Add the following to your `claude_desktop_config.json`:
 ```json
 {
     "mcpServers": {
-        "osp_editing_codes": {
+        "osp_marketing_tools": {
             "command": "uvx",
             "args": [
                 "--from",
                 "git+https://github.com/open-strategy-partners/osp_marketing_tools@main",
-                "osp-editing-codes"
+                "osp-marketing-tools"
             ]
         }
     }
