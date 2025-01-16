@@ -1,4 +1,4 @@
-"""OSP Editing Codes server implementation."""
+"""OSP Marketing Tools server implementation."""
 
 import os
 import asyncio
@@ -16,14 +16,14 @@ def get_logger(name: str):
 logger = get_logger(__name__)
 
 # Create server instance using FastMCP
-mcp = FastMCP("osp-editing-codes")
+mcp = FastMCP("osp_marketing_tools")
 
 @mcp.tool()
 async def health_check() -> dict:
     """Check if the server is running and can access its resources"""
     return {
         "status": "healthy",
-        "resources": ["osp://editing-codes"],
+        "resources": ["osp://marketing-tools"],
         "version": "0.1.0"
     }
 

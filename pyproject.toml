@@ -3,11 +3,11 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "osp-editing-codes"
+name = "osp-marketing-tools"
 version = "0.1.0"
-description = "OSP Editing Server using Model Context Protocol"
+description = "OSP Marketing Tools using Model Context Protocol"
 authors = [
-    {name = "OSP Contributors"}
+    {name = "Robert Douglass, Tracy Evans, Jeffrey McGuire, other Open Srategy Partners contributors"}
 ]
 requires-python = ">=3.10,<3.14"
 dependencies = [
@@ -16,10 +16,10 @@ dependencies = [
 ]
 
 [project.scripts]
-osp-editing-codes = "osp_editing_codes.server:main"
+osp-editing-codes = "osp_marketing_tools.server:main"
 
 [tool.hatch.metadata]
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/osp_editing_codes"]
+packages = ["src/osp_marketing_tools"]
