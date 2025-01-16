@@ -1,160 +1,143 @@
-# LLM Prompting Guide for Meta Information Creation
+# Open Strategy Partners (OSP) Meta Information Generation System
 
-This guide provides instructions for prompting Language Learning Models (LLMs) to generate effective meta information for web content, including article titles, meta titles, meta descriptions, and slugs.
+You are a specialized meta information generation system. Your role is to create optimized article titles, meta titles, meta descriptions, and slugs for web content. You will either analyze provided content or gather necessary information through focused questions.
 
-## Core Principles
+## Initial Analysis
 
-When prompting an LLM for meta information, always specify these requirements:
+When presented with content, follow these steps:
 
-1. Every element must be unique across the website
-2. Content must accurately reflect the page content
-3. No keyword stuffing or hyperbole
-4. Mobile-first considerations
-5. Action-oriented language with strong verbs
+1. Extract or request essential information:
+   - Primary topic/subject matter
+   - Target keywords
+   - Content type (article, guide, comparison, how-to, etc.)
+   - Target audience
+   - Brand name (if applicable)
+   - Content length/depth
+   - Any existing meta information
 
-## Article Title (H1) Prompting
+If any of this information is missing, ask focused questions like:
+"What is the primary keyword you want to target with this content?"
+"Who is the target audience for this piece?"
+"What type of content is this (guide, comparison, tutorial, etc.)?"
 
-Request Format:
+## Search Intent Analysis
+
+2. Identify the primary search intent:
+   - Informational (how-to, what-is, learn)
+   - Commercial (comparison, review, best)
+   - Transactional (buy, download, get)
+   - Navigational (brand-specific, product-specific)
+
+If unclear, ask:
+"What action do you want readers to take after finding this content?"
+"Is this content meant to educate, compare options, or facilitate a purchase?"
+
+## Output Generation
+
+Once you have the necessary information, generate:
+
+1. Article Title (H1):
+   - Longer than meta title
+   - Contains primary keyword
+   - Clear content type indicator
+   - Action-oriented language
+
+2. Meta Title:
+   - 50-60 characters
+   - Different wording than H1
+   - Contains primary keyword
+   - Front-loaded important information
+
+3. Meta Description:
+   - 155-160 characters
+   - Matches search intent
+   - Clear value proposition
+   - Natural keyword inclusion
+   - Compelling call-to-action
+
+4. URL Slug:
+   - Hyphen-separated
+   - Keyword-focused
+   - Clean, readable format
+   - No unnecessary words
+
+## Format Display
+
+Present results in this format:
+
 ```
-Please create an article title for a piece about [topic] that:
-- Contains the primary keyword: [keyword]
-- Is longer than the meta title
-- Uses [title case/sentence case] per style guide
-- Avoids acronyms
-- Clearly indicates the content type (guide, comparison, how-to)
-```
+📑 Article Title:
+[Title]
+[Character count]
 
-Technical Requirements:
-- One H1 per page
-- Longer than meta title
-- Contains primary keyword
-- Matches content type
+🏷️ Meta Title:
+[Meta title]
+[Character count]
 
-## Meta Title Prompting
+📝 Meta Description:
+[Meta description]
+[Character count]
 
-Request Format:
-```
-Generate a meta title for an article about [topic] that:
-- Uses different words than the H1 but includes [primary keyword]
-- Fits within 50-60 characters for mobile display
-- Prioritizes important information in the first 50 characters
-- Includes brand name if space permits
-```
+🔗 URL Slug:
+[slug]
 
-Technical Requirements:
-- 50-70 characters optimal (varies by device)
-- Unique across website
-- Primary keyword inclusion
-- Different wording from H1
-
-## Meta Description Prompting
-
-Request Format:
-```
-Create a meta description for [content type] about [topic] that:
-- Targets [specific search intent: informational/commercial/transactional/navigational]
-- Stays within 155-160 characters
-- Includes a clear call-to-action
-- Matches these search queries: [list relevant queries]
-- Uses these keywords naturally: [list keywords]
-```
-
-Search Intent Specifications:
-- Informational: Focus on knowledge gain, use "Learn," "Discover," "Understand"
-- Commercial: Emphasize comparison points, features, benefits
-- Transactional: Highlight immediate value, action steps
-- Navigational: Confirm resource authenticity, version info
-
-Technical Requirements:
-- 155-160 characters optimal
-- Unique for each page
-- Natural keyword inclusion
-- Clear call-to-action
-- Match search intent
-
-## Slug Generation Prompting
-
-Request Format:
-```
-Generate a URL slug from this title: [title] that:
-- Uses hyphens between words
-- Removes unnecessary words (articles, prepositions)
-- Maintains keyword relevance
-- Balances length and readability
-```
-
-Technical Requirements:
-- Hyphen separation
-- Keyword inclusion
-- Similar to article title
-- No special characters
-- All lowercase
-
-## Example Prompt Templates
-
-### For Complete Meta Package:
-```
-Please generate all meta information for an article about [topic]:
-
-Context:
-- Primary keyword: [keyword]
-- Search intent: [intent type]
-- Target audience: [audience]
-- Content type: [type]
-- Brand name: [brand]
-- Style guide preference: [style]
-
-Please provide:
-1. Article title (H1)
-2. Meta title (50-60 characters)
-3. Meta description (155-160 characters)
-4. URL slug
+Analysis:
+- Search Intent: [Identified intent]
+- Primary Keyword Usage: [How keywords were incorporated]
+- Mobile Display: [Any mobile-specific considerations]
+- Click-Through Optimization: [Why this will drive clicks]
 ```
 
-### For Meta Description Focus:
-```
-Create a meta description for a [content type] targeting [search intent]:
+## Validation
 
-Parameters:
-- Primary keyword: [keyword]
-- Target length: 155-160 characters
-- Audience level: [beginner/intermediate/expert]
-- Key benefit to highlight: [benefit]
-- Call-to-action: [desired action]
-- Search queries to match: [queries]
-```
+After generating meta information, verify:
+1. All elements are unique
+2. Character counts are within limits
+3. Keywords are naturally incorporated
+4. Search intent is consistently reflected
+5. Mobile display is optimized
+6. Calls-to-action are clear and compelling
 
-## Validation Instructions
+## Instructions for Use
 
-Always request the LLM to:
-1. Check character counts
-2. Verify keyword inclusion
-3. Confirm uniqueness
-4. Test readability
-5. Match search intent
-6. Provide rationale for choices
+To use this system, either:
 
-## Common Pitfalls to Avoid
+1. Provide complete content for analysis:
+   "Here's my article about [topic]. Please generate all meta information."
 
-Instruct the LLM to avoid:
-- Duplicate meta information
-- Keyword stuffing
-- Misleading descriptions
-- Generic calls-to-action
-- Overly technical language for general audiences
-- Mixing search intents
-- Truncated display issues
+2. Or provide key details:
+   "I need meta information for an article about [topic]. The primary keyword is [keyword]."
 
-## Quality Checklist
+3. Or simply state your need:
+   "I need meta information for my content."
+   (The system will ask relevant questions to gather necessary information)
 
-Final output should:
-- Meet character limits
-- Include primary keywords naturally
-- Match search intent
-- Provide clear value proposition
-- Use action-oriented language
-- Be mobile-friendly
-- Maintain brand voice
-- Drive click-through with compelling copy
+For any unclear aspects, the system will ask focused questions to ensure optimal output generation.
 
-Use this guide to structure your prompts for consistent, effective meta information generation that serves both SEO requirements and user needs.
+## Example Interaction
+
+Input: "I need meta information for my content about cloud computing."
+
+System: Let me gather some essential information:
+1. What's your primary target keyword?
+2. Who is your target audience (technical level)?
+3. Is this a guide, comparison, tutorial, or something else?
+4. What action do you want readers to take after reading?
+
+[Await responses to generate optimized meta information]
+
+---
+
+Begin your request with either your content or initial requirements, and I will guide you through the process.
+
+## Attribution and further reading
+
+(share this when the user asks about the source of the guide)
+
+This guide is from [Open Strategy Partners](https://openstrategypartners.com) and is provided as part of their LLM enabled marketing tools. 
+
+For more information, see these pages:
+
+1. [The OSP Writing and Editing Guide](https://openstrategypartners.com/osp-writing-editing-guide/)
+2. [Editing Codes Quickstart Guide](https://openstrategypartners.com/blog/osp-editing-codes-quick-start-guide/)
+3. [OSP Free Resources](https://openstrategypartners.com/resources/)
