@@ -1,11 +1,11 @@
 # Open Strategy Partners (OSP) Marketing Tools for LLMs
 
-A comprehensive suite of tools for technical content creation, optimization, and product positioning based on Open Strategy Partners' proven methodologies. This software is based on the Model Context Protocol (MCP) and is to be used by any LLM client that supports the MCP.
+A comprehensive suite of tools for technical content creation, optimization, and product positioning based on [Open Strategy Partners](https://openstrategypartners.com)' proven methodologies. This software is based on the [Model Context Protocol (MCP)](https://openstrategypartners.com/blog/the-model-context-protocol-unify-your-marketing-stack-with-ai/) and is to be used by any LLM client that supports the MCP.
 
 ## Features
 
 ### 1. OSP Product Value Map Generator
-Generate structured product value maps that effectively communicate your product's worth and positioning:
+Generate structured [OSP product value maps](https://openstrategypartners.com/the-osp-value-map/) that effectively communicate your product's worth and positioning:
 - Tagline creation and refinement
 - Position statements across market, technical, UX, and business dimensions
 - Persona development with roles, challenges, and needs
@@ -25,7 +25,7 @@ Create optimized metadata for web content:
 - Click-through rate enhancement suggestions
 
 ### 3. OSP Content Editing Codes
-Apply semantic editing marks for comprehensive content review:
+Apply [OSP's semantic editing codes](https://openstrategypartners.com/resources/the-osp-editing-codes/) for comprehensive content review:
 - Scope and narrative structure analysis
 - Flow and readability enhancement
 - Style and phrasing optimization
