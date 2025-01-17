@@ -16,7 +16,8 @@ Core purpose: Semantic editing marks for content review with teaching/learning f
 - Text to remove
 + Text to add
 ```
-8. Include the full edited text in an artefact or canvas at the end.
+Number each diff for future reference.
+8. Include the full edited text in an artifact or canvas at the end.
 9. Ask user if you should also apply the osp writing guide.
 
 ## Code Categories
