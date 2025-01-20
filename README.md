@@ -1,10 +1,8 @@
 # Open Strategy Partners (OSP) Marketing Tools for LLMs
 
-[![smithery badge](https://smithery.ai/badge/osp_marketing_tools)](https://smithery.ai/server/osp_marketing_tools)
+[![smithery badge](https://smithery.ai/badge/osp_marketing_tools)](https://smithery.ai/server/osp_marketing_tools) ![](https://badge.mcpx.dev?type=server 'MCP Server') 
 
 A comprehensive suite of tools for technical content creation, optimization, and product positioning based on [Open Strategy Partners](https://openstrategypartners.com)' proven methodologies. This software is based on the [Model Context Protocol (MCP)](https://openstrategypartners.com/blog/the-model-context-protocol-unify-your-marketing-stack-with-ai/) and is to be used by any LLM client that supports the MCP.
-
-![](https://badge.mcpx.dev?type=server 'MCP Server') 
 
 ## Features
 
