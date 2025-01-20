@@ -111,7 +111,7 @@ Add the following to your `claude_desktop_config.json`:
             "args": [
                 "--from",
                 "git+https://github.com/open-strategy-partners/osp_marketing_tools@main",
-                "osp-marketing-tools"
+                "osp_marketing_tools"
             ]
         }
     }
