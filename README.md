@@ -1,8 +1,9 @@
 # Open Strategy Partners (OSP) Marketing Tools for LLMs
 
-[![smithery badge](https://smithery.ai/badge/osp_marketing_tools)](https://smithery.ai/server/osp_marketing_tools) ![](https://badge.mcpx.dev?type=server 'MCP Server')  <a href="https://glama.ai/mcp/servers/6b2sa6wk5d">
+ <a href="https://glama.ai/mcp/servers/6b2sa6wk5d">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/6b2sa6wk5d/badge" />
 </a>
+[![smithery badge](https://smithery.ai/badge/osp_marketing_tools)](https://smithery.ai/server/osp_marketing_tools) ![](https://badge.mcpx.dev?type=server 'MCP Server') 
 
 A comprehensive suite of tools for technical content creation, optimization, and product positioning based on [Open Strategy Partners](https://openstrategypartners.com)' proven methodologies. This software is based on the [Model Context Protocol (MCP)](https://openstrategypartners.com/blog/the-model-context-protocol-unify-your-marketing-stack-with-ai/) and is to be used by any LLM client that supports the MCP. Read our vision paper on how [Agentic AI will benefit marketing](https://openstrategypartners.com/blog/mastering-llm-interaction-preparing-marketing-teams-for-agentic-ai-success-with-mcp/).
 
