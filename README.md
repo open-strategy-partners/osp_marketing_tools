@@ -108,13 +108,6 @@ Prompt: "Apply the OSP writing guide to create a [document type] about [topic] f
 Example:
 "Apply the OSP writing guide to create a tutorial about setting up a CI/CD pipeline for junior developers"
 ```
-
-## Requirements
-
-- Python must be installed on your system
-- `uv` Python package installer must be installed
-    - Installation instructions for `uv` can be found at [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)
-
 ## Installation
 
 ### Prerequisites
