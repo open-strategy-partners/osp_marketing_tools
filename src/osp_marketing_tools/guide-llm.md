@@ -84,6 +84,7 @@ Number each diff for future reference.
 - Replace weak verbs with strong ones
 - Use figurative language purposefully
 - Write inclusively and non-violently
+- Headers and List Items should be in sentence case, not title case (eg. yes: My great header / no: My Great Header )
 
 ### 4. Technical Accuracy
 - Verify all technical claims

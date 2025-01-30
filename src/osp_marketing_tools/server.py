@@ -103,6 +103,25 @@ async def get_value_map_positioning_guide() -> dict:
             "error": "Required file 'product-value-map-llm.md' not found in script directory"
         }
 
+@mcp.tool()
+async def get_on_page_seo_guide() -> dict:
+    """Get the Open Strategy Partners (OSP) On-Page SEO Optimization Guide."""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    try:
+        with open(os.path.join(script_dir, 'on-page-seo-guide.md'), 'r') as f:
+            content = f.read()
+            return {
+                "success": True,
+                "data": {
+                    "content": content
+                }
+            }
+    except FileNotFoundError:
+        return {
+            "success": False,
+            "error": "Required file 'on-page-seo-guide.md' not found in script directory"
+        }
+
 
 def main() -> None:
     """Run the MCP server."""
