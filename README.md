@@ -51,6 +51,18 @@ Systematic approach to creating high-quality technical content:
 - Internationalization best practices
 - Quality assurance checklists
 
+### 5. OSP On-Page SEO Guide
+Comprehensive system for optimizing web content for search engines and user experience:
+- Meta content optimization (titles, descriptions with character limits and keyword placement)
+- Content depth enhancement (subtopics, data integration, multi-format optimization)
+- Search intent alignment (5 types: informational, navigational, transactional, commercial, local)
+- Technical SEO implementation (keyword research, integration protocols, internal linking rules)
+- Structured data deployment (FAQ, How-To, Product schemas)
+- Content promotion strategies (social media, advertising approaches)
+- Quality validation protocol (constructive feedback, diff-based revision system)
+- Performance measurement methods (CTR, bounce rate, time on page metrics)
+
+
 ## Usage Examples
 
 In all of these examples, it is assumed that you will provide the texts that you wish to improve, or the technical documentation that describes the product you are marketing. 
