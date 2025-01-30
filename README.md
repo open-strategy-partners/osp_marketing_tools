@@ -183,4 +183,4 @@ We welcome contributions to improve these tools. Please submit issues and pull r
 For questions and support:
 1. Check our documentation
 2. Submit an issue in our repository
-3. Contact Open Strategy Partners for professional consulting
+3. Contact Open Strategy Partners for [professional consulting](https://openstrategypartners.com/contact/)
