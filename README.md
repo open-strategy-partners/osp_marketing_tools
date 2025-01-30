@@ -115,6 +115,31 @@ Example:
 - `uv` Python package installer must be installed
     - Installation instructions for `uv` can be found at [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)
 
+## Installation
+
+### Prerequisites
+
+#### Windows
+1. Install Python 3.10 or higher:
+   - Download the latest Python installer from [python.org](https://python.org)
+   - Run the installer, checking "Add Python to PATH"
+   - Open Command Prompt and verify installation with `python --version`
+
+2. Install uv:
+   - Open Command Prompt as Administrator
+   - Run `pip install --user uv`
+   - Verify installation with `uv --version`
+
+#### macOS
+1. Install Python 3.10 or higher:
+   - Using Homebrew: `brew install python`
+   - Verify installation with `python3 --version`
+
+2. Install uv:
+   - Using Homebrew: `brew install uv`
+   - Alternatively: `pip3 install --user uv`
+   - Verify installation with `uv --version`
+
 ## Configuration
 
 Add the following to your `claude_desktop_config.json`:
@@ -133,15 +158,6 @@ Add the following to your `claude_desktop_config.json`:
     }
 }
 ```
-
-## Integration
-
-The software can be integrated into your content workflow through:
-- API endpoints
-- Command-line interface
-- Web interface
-- Content management system plugins
-
 ## Attribution
 
 This software package implements the content creation and optimization methodologies developed by [Open Strategy Partners](https://openstrategypartners.com). It is based on their LLM-enabled marketing tools and professional content creation frameworks.
