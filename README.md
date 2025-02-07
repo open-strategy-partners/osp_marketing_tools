@@ -6,7 +6,7 @@
 
 [![smithery badge](https://smithery.ai/badge/osp_marketing_tools)](https://smithery.ai/server/osp_marketing_tools) ![](https://badge.mcpx.dev?type=server 'MCP Server') 
 
-A comprehensive suite of tools for technical content creation, optimization, and product positioning based on [Open Strategy Partners](https://openstrategypartners.com)' proven methodologies. This software is based on the [Model Context Protocol (MCP)](https://openstrategypartners.com/blog/the-model-context-protocol-unify-your-marketing-stack-with-ai/) and is to be used by any LLM client that supports the MCP. Read our vision paper on how [Agentic AI will benefit marketing](https://openstrategypartners.com/blog/mastering-llm-interaction-preparing-marketing-teams-for-agentic-ai-success-with-mcp/).
+A comprehensive suite of tools for technical content creation, optimization, and product positioning based on [Open Strategy Partners](https://openstrategypartners.com)' proven methodologies. This software is based on the [Model Context Protocol (MCP)](https://openstrategypartners.com/blog/the-model-context-protocol-unify-your-marketing-stack-with-ai/) and is to be used by any LLM client that supports the MCP (as of early February 2025, this means the Claude desktop app). Read our vision paper on how [Agentic AI will benefit marketing](https://openstrategypartners.com/blog/mastering-llm-interaction-preparing-marketing-teams-for-agentic-ai-success-with-mcp/).
 
 ## Features
 
@@ -113,22 +113,30 @@ Example:
 ### Prerequisites
 
 #### Windows
-1. Install Python 3.10 or higher:
+1. Install Claude Desktop (or another MCP-enabled AI tool)
+   - Download [Claude for Desktop](https://claude.ai/download) 
+   - Follow the current installation instructions: [Installing Claude Desktop](https://support.anthropic.com/en/articles/10065433-installing-claude-for-desktop)
+     
+2. Install Python 3.10 or higher:
    - Download the latest Python installer from [python.org](https://python.org)
    - Run the installer, checking "Add Python to PATH"
    - Open Command Prompt and verify installation with `python --version`
 
-2. Install uv:
+3. Install uv:
    - Open Command Prompt as Administrator
    - Run `pip install --user uv`
    - Verify installation with `uv --version`
 
 #### macOS
-1. Install Python 3.10 or higher:
+1. Install Claude Desktop (or another MCP-enabled AI tool)
+   - Download [Claude for Desktop](https://claude.ai/download) 
+   - Follow the current installation instructions: [Installing Claude Desktop](https://support.anthropic.com/en/articles/10065433-installing-claude-for-desktop)
+     
+2. Install Python 3.10 or higher:
    - Using Homebrew: `brew install python`
    - Verify installation with `python3 --version`
 
-2. Install uv:
+3. Install uv:
    - Using Homebrew: `brew install uv`
    - Alternatively: `pip3 install --user uv`
    - Verify installation with `uv --version`
