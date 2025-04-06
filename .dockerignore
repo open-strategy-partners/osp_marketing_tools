@@ -1,0 +1,52 @@
+# .dockerignore file for the project
+
+# Ignore version control files
+.git/
+.gitignore
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore build and test artifacts
+dist/
+build/
+out/
+test/
+tests/
+*_test.go
+
+# Ignore environment and secret files
+.env*
+*.env
+*.pem
+*.key
+*.crt
+config.local.*
+*.local.yml
+
+# Ignore documentation and temporary files
+docs/
+*.md
+README*
+tmp/
+temp/
+*.tmp
+.local/
+local/
+
+# Ignore Docker-related files
+Dockerfile*
+docker-compose*
+
+# Ignore project-specific files
+uv.lock
