@@ -1,10 +1,6 @@
 # Open Strategy Partners (OSP) Marketing Tools for LLMs
 
- <a href="https://glama.ai/mcp/servers/6b2sa6wk5d">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/6b2sa6wk5d/badge" />
-</a>
-
-[![smithery badge](https://smithery.ai/badge/osp_marketing_tools)](https://smithery.ai/server/osp_marketing_tools) ![](https://badge.mcpx.dev?type=server 'MCP Server') 
+![](https://badge.mcpx.dev?type=server 'MCP Server') 
 
 A comprehensive suite of tools for technical marketing content creation, optimization, and product positioning based on [Open Strategy Partners](https://openstrategypartners.com)' proven methodologies. 
 
