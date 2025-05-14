@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/open-strategy-partners-osp-marketing-tools-badge.png)](https://mseep.ai/app/open-strategy-partners-osp-marketing-tools)
+
 # Open Strategy Partners (OSP) Marketing Tools for LLMs
 
 ![](https://badge.mcpx.dev?type=server 'MCP Server') 
